@@ -1,0 +1,24 @@
+$black: #111111;
+$gray: #7F7F7F;
+$white: #FFFFFF;
+$yellow: #F4D04E;
+
+.-line-height {
+    line-height: 150%;
+}
+
+.-medium {
+    font-weight: 500;
+}
+
+.-extra-bold {
+    font-weight: 800;
+}
+
+.-font-black {
+    color: $black;
+}
+
+.-font-gray {
+    color: $gray;
+}

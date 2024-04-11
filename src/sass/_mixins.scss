@@ -1,0 +1,18 @@
+@mixin flex_items_content_direction_gap($param_ai, $param_jc, $param_fd, $param_gp) {
+    display: flex;
+    align-items: $param_ai;
+    justify-content: $param_jc;
+    flex-direction: $param_fd;
+    gap: $param_gp;
+}
+
+@mixin width_height($param_w, $param_h) {
+    width: $param_w;
+    height: $param_h;
+}
+
+@mixin padding_radius_bgc($param_p, $param_r, $param_bgc) {
+    padding: $param_p;
+    border-radius: $param_r;
+    background-color: $param_bgc;
+}

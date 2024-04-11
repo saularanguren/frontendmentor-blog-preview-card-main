@@ -1,0 +1,20 @@
+@use 'variables';
+@use 'mixins';
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(../assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: variables.$yellow;
+    @include mixins.flex_items_content_direction_gap(center, center, column, 0);
+}
