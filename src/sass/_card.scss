@@ -2,41 +2,41 @@
 @use 'mixins';
 
 .card__component {
-    @include mixins.flex_items_content_direction_gap(flex-start, flex-start, column, 24px);
-    @include mixins.padding_radius_bgc(24px, 20px, variables.$white);
-    @include mixins.width_height(327px, 501px);
-    border: solid 1px variables.$black;
-    box-shadow: 8px 8px 0 0 #000000;
+    @include mixins.flex_items_content_direction_gap(flex-start, flex-start, column, 1.5rem);
+    @include mixins.padding_radius_bgc(1.5rem, 1.25rem, variables.$white);
+    @include mixins.width_height(20.438rem, 31.313rem);
+    border: solid 0.063rem variables.$black;
+    box-shadow: 0.5rem 0.5rem 0 0 #000000;
 
     &__blogimage {
-        @include mixins.width_height(279px, 200px);
+        @include mixins.width_height(17.438rem, 12.5rem);
         background: url(../assets/images/illustration-article.svg) no-repeat center;
-        border-radius: 10px;
+        border-radius: 0.625rem;
     }
 
     &__content {
-        @include mixins.flex_items_content_direction_gap(flex-start, space-between, column, 12px);
-        @include mixins.width_height(279px, 173px);
+        @include mixins.flex_items_content_direction_gap(flex-start, space-between, column, 0.75rem);
+        @include mixins.width_height(17.438rem, 10.813rem);
         
         & .--category {
-            @include mixins.flex_items_content_direction_gap(center, center, row, 8px);
-            @include mixins.padding_radius_bgc(4px 12px, 4px, variables.$yellow);
-            @include mixins.width_height(73px, 26px);
+            @include mixins.flex_items_content_direction_gap(center, center, row, 0.5rem);
+            @include mixins.padding_radius_bgc(0.25rem 0.75rem, 0.25rem, variables.$yellow);
+            @include mixins.width_height(4.563rem, 1.625rem);
 
             & p {
-                @include mixins.width_height(49px, 18px);
-                font-size: 12px;
+                @include mixins.width_height(3.063rem, 1.125rem);
+                font-size: 0.75rem;
             }
         }
 
         & .--publishdate {
-            @include mixins.width_height(123px, 18px);
-            font-size: 12px;
+            @include mixins.width_height(7.688rem, 1.125rem);
+            font-size: 0.75rem;
         }
 
         & .--title {
-            @include mixins.width_height(279px, 30px);
-            font-size: 20px;
+            @include mixins.width_height(17.438rem, 1.875rem);
+            font-size: 1.25rem;
             transition: .5s ease color;
             
             &:hover {
@@ -46,22 +46,22 @@
         }
 
         & .--description {
-            @include mixins.width_height(279px, 63px);
-            font-size: 14px;
+            @include mixins.width_height(17.438rem, 3.938rem);
+            font-size: 0.875rem;
         }
     }
 
     &__author {
-        @include mixins.flex_items_content_direction_gap(center, flex-start, row, 12px);    
-        @include mixins.width_height(129px, 32px);
+        @include mixins.flex_items_content_direction_gap(center, flex-start, row, 0.75rem);    
+        @include mixins.width_height(8.063rem, 2rem);
 
         & img {
-            @include mixins.width_height(32px, 32px);
+            @include mixins.width_height(2rem, 2rem);
         }
 
         & h2 {
-            @include mixins.width_height(85px, 21px);
-            font-size: 14px;
+            @include mixins.width_height(5.313rem, 1.313rem);
+            font-size: 0.875rem;
         }
     } 
 }

@@ -1,39 +1,39 @@
 @use 'mixins';
 
 // Media Querie For Desktop
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
     .card__component {
-        @include mixins.width_height(384px, 522px);
+        @include mixins.width_height(24rem, 32.625rem);
         
         &__blogimage {
-            width: 336px;
+            width: 21rem;
         }
 
         &__content {
-            @include mixins.width_height(336px, 194px);
+            @include mixins.width_height(21rem, 12.125rem);
 
             & .--category {
-                @include mixins.width_height(82px, 29px);
+                @include mixins.width_height(5.125rem, 1.813rem);
 
                 & p {
-                    @include mixins.width_height(58px, 21px);
-                    font-size: 14px;
+                    @include mixins.width_height(3.625rem, 1.313rem);
+                    font-size: 0.875rem;
                 }
             }
 
             & .--publishdate {
-                @include mixins.width_height(143px, 21px);    
-                font-size: 14px;
+                @include mixins.width_height(8.938rem, 1.313rem);    
+                font-size: 0.875rem;
             }
 
             & .--title {
-                @include mixins.width_height(336px, 36px);
-                font-size: 24px;
+                @include mixins.width_height(21rem, 2.25rem);
+                font-size: 1.5rem;
             }
 
             & .--description {
-                @include mixins.width_height(336px, 72px);
-                font-size: 16px;
+                @include mixins.width_height(21rem, 4.5rem);
+                font-size: 1rem;
             }
         }
     }
