@@ -28,3 +28,8 @@ dist-ssr
 *.xd
 
 .prettierignore
+
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map

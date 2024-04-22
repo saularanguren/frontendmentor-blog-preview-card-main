@@ -6,6 +6,8 @@
 
 Thanks for checking out this front-end coding challenge. [Blog preview card live](https://frontendmentor-blog-preview-card-main.netlify.app/) 🚀
 
+**This challenge was developed with HTML and SASS.**
+
 ## Download
 
 - open terminal **(in main directory)**
