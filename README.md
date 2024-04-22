@@ -4,11 +4,10 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
-
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+Thanks for checking out this front-end coding challenge. [Blog preview card live](https://frontendmentor-blog-preview-card-main.netlify.app/) 🚀
 
 ## Download
 
+- open terminal **(in main directory)**
 - npm install
 - sass --watch sass:css **(in src folder)**
